@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="signin-signup">
+<!--SING-IN FORM-->
+            <form action="" class="sign-in-form">
+                <h2 class="title"> Sign in</h2>
+                <div class="box">
+                    <i class="fa fa-user" alt="f-user"></i>
+                    <input type="text" id="usernameA" pleaceholder="Username" required>
+                    <p class="error"></p>
+                </div>
+                <div class="box">
+                    <i class="fa fa-lock-alt" alt="f-lock"></i>
+                    <input type="password" id="password1A" pleaceholder="Password" required>
+                    <p class="error"></p>
+                </div>
+                <input type="submit" value="Login" id="sub-login" class="btn">
+                <p class="social-text">Sign in using social media</p>
+                <div class="social-media">
+                    <a href="https://www.facebook.com" class="social-icon">
+                        <i class="fab fa-facebook"></i>
+                        </a>
+                    <a href="https://www.google.com" class="social-icon">
+                        <i class="fab fa-google"></i></a>
+                    <a href="https://pl.linkedin.com" class="social-icon">
+                        <i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://twitter.com" class="social-icon">
+                        <i class="fab fa-twitter"></i></a>
+                </div>
+                <p class="account-text">Want to join us? <a href="#" id="sign-up-btn2"> SIGN UP</a></p>
+            </form>
+<!--END SING-IN FORM-->
+
+<!--SING-UP FORM-->
+            <form action="" class="sign-up-form">
+                <h2 class="title"> Sign up</h2>
+                <div class="box">
+                    <i class="fa fa-user" alt="f-user"></i>
+                    <input type="text" id="usernameB" pleaceholder="Username" reqiured>
+                    <p class="error"></p>
+                </div>
+                <div class="box">
+                    <i class="fa fa-envelope" alt="f-envelope"></i>
+                    <input type="text" id="e-mail" pleaceholder="E-mail" reqiured>
+                    <p class="error"></p>
+                </div>
+                <div class="box">
+                    <i class="fa fa-lock-alt" alt="f-lock"></i>
+                    <input type="password" id="password1B" pleaceholder="Password" reqiured>
+                    <p class="error"></p>
+                </div>
+                <div class="box">
+                    <i class="fa fa-lock-alt" alt="f-lockc"></i>
+                    <input type="password" id="password2B" pleaceholder="check password" reqiured>
+                    <p class="error"></p>
+                </div>
+                <input type="submit" value="Sign up" id="sub-sign-up" class="btn">
+                <input type="submit" value="Clear" id="sub-clear" class="btn">
+                <p class="social-text">Sign in using social media</p>
+                <div class="social-media">
+                    <a href="https://www.facebook.com" class="social-icon">
+                        <i class="fab fa-facebook"></i>
+                        </a>
+                    <a href="https://www.google.com" class="social-icon">
+                        <i class="fab fa-google"></i></a>
+                    <a href="https://pl.linkedin.com" class="social-icon">
+                        <i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://twitter.com" class="social-icon">
+                        <i class="fab fa-twitter"></i></a>
+                </div>
+                <p class="account-text">Alredy a member?<a href="#" id="sign-in-btn2"> SIGN IN</a></p>
+            </form>
+        </div>
+<!--SING-UP FORM-->
+
+<!--APPEARANCE OF THE OTHER SIDE-->
+        <div class="panels-container">
+            <div class="panel left-panel">
+                <div class="content">
+                    <h3>Alredy a member?</h3>
+                    <p>Lorem ipsum dolor sit amet, 
+                    consectetur adipiscing elit. Donec vehicula eleifend ullamcorper. 
+                    Integer mauris ligula, varius nec lorem id, porttitor pretium nisi.</p>
+                    <button class="btn" id="sign-in-btn"> Sign in</button>
+                </div>
+                <img src="./img/Hello.svg" alt="" class="image">
+            </div>
+
+            <div class="panel right-panel">
+                <div class="content">
+                    <h3>Want to become a member?</h3>
+                    <p>Lorem ipsum dolor sit amet, 
+                    consectetur adipiscing elit. Donec vehicula eleifend ullamcorper. 
+                    Integer mauris ligula, varius nec lorem id, porttitor pretium nisi.</p>
+                    <button class="btn" id="sign-up-btn"> Sign up</button>
+                </div>
+                <img src="./img/happy.svg" alt="" class="image">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
